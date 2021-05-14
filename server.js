@@ -7,7 +7,7 @@ PORT = 3000 || process.env.PORT;
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
 
-app.use(require("./api/routes/index"));
+app.use("/api", require("./api/routes/index"));
 
 app.get("/", (req, res) => {
   res.send("hello");

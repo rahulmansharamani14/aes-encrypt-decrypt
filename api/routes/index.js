@@ -7,6 +7,10 @@ let aes = new TravisAes();
 
 require("dotenv").config();
 
+router.get("/", (req, res) => {
+  res.send("Home Page");
+});
+
 router.post("/encrypt", (req, res) => {
   const { title, description } = req.body;
   console.log(req.body);
