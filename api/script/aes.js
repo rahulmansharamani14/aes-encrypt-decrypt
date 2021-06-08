@@ -1,6 +1,6 @@
 var CryptoJS = require("crypto-js");
 
-class TravisAes {
+class Aes {
   constructor() {
     this._keySize = 256;
     this._ivSize = 128;
@@ -63,4 +63,4 @@ class TravisAes {
   }
 }
 
-module.exports = TravisAes;
+module.exports = Aes;
