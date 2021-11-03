@@ -1,6 +1,6 @@
 # AES Encryption and Decryption
 
-A API for implementation of AES based encryption and decryption in Nodejs using Crypto module.
+An API for the implementation of AES based encryption and decryption in Nodejs using Crypto module.
 
 ## Installation
 
@@ -32,7 +32,7 @@ Start Development server
 
 ### Encryption
 
-```http
+```
   POST /api/encrypt
 ```
 
@@ -42,7 +42,7 @@ Start Development server
 
 ### Decryption
 
-```http
+```
   POST /api/decrypt
 ```
 
